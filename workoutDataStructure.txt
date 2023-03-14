@@ -1,0 +1,11 @@
+workout:
+{
+    name: 'blah',
+    creator: 'owen',
+    numberOfDays: 30,
+    dayTheUserIsOn: 0,
+    description: 'Long winded description goes here, write about the focus, what is unique or not about the program. blah blah blah"
+name',
+    tag: 'Build Muscle',
+}
+

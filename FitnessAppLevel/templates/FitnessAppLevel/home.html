@@ -1,14 +1,31 @@
+{% extends 'FitnessAppLevel/base.html' %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Hello, world!</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="" />
-  <link rel="icon" href="favicon.png">
-</head>
-<body>
-    <h1>Home Page</h1>
-</body>
-</html>
+{% block content %}
+
+  <h1>Home Page</h1>
+
+  <div class="Container">
+    <div class="row home-btns">
+      <div class="col">  
+        <button type="button" class="btn btn-info">Start Next Workout</button>
+      </div>
+    </div>
+
+    <div class="row home-btns">
+      <div class="col">  
+        <button type="button" class="btn btn-outline-info">Profile</button>
+      </div>
+    </div>
+
+    <div class="row home-btns">
+      <div class="col">  
+        <button type="button" class="btn btn-outline-info">Search Workouts</button>
+      </div>
+    </div>
+  </div>
+
+ 
+
+
+
+  {% endblock content %}
